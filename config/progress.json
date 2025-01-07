@@ -1,0 +1,59 @@
+{
+  "user_progress": {
+    "current_lesson": {
+      "id": "lesson_0",
+      "name": "Getting Started",
+      "status": "in_progress",
+      "start_date": "",
+      "last_accessed": "",
+      "completion_percentage": 0
+    },
+    "completed_lessons": [],
+    "lesson_history": [],
+    "skill_levels": {
+      "python_basics": "beginner",
+      "algorithms": "not_started",
+      "data_structures": "not_started"
+    }
+  },
+  "achievements": {
+    "badges": [],
+    "points": 0,
+    "streaks": {
+      "current_streak": 0,
+      "longest_streak": 0,
+      "last_activity_date": ""
+    }
+  },
+  "practice_stats": {
+    "exercises_completed": 0,
+    "exercises_attempted": 0,
+    "success_rate": 0,
+    "total_coding_time": 0,
+    "language_distribution": {
+      "python": 0,
+      "javascript": 0
+    }
+  },
+  "learning_path": {
+    "current_track": "python_fundamentals",
+    "completed_topics": [],
+    "next_recommended": [],
+    "custom_goals": []
+  },
+  "session_data": {
+    "last_session": {
+      "start_time": "",
+      "end_time": "",
+      "duration": 0,
+      "topics_covered": []
+    },
+    "total_sessions": 0,
+    "average_session_length": 0
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "",
+    "data_schema_version": "1.0.0"
+  }
+} 

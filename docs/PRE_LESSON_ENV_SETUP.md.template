@@ -1,0 +1,104 @@
+# 🚀 Pre-Lesson: Setting Up Your {{ terminology.environment }}
+
+Welcome, future {{ terminology.role }}! Before we embark on your coding journey, let's set up your development environment. This short guide will help you create a safe, isolated workspace for your adventures.
+
+## 🎮️ Your Learning Path
+
+1. **Environment Setup** ← You are here!
+2. **Personalization** (Coming up next!)
+3. **Terminal Fundamentals** (Lesson 0)
+4. **Main Lessons** (Based on your interests)
+
+## 🎮 Using Cursor IDE
+
+1. **Opening Your Project**
+   - Launch Cursor IDE
+   - Click File > Open Folder
+   - Navigate to your project directory
+   - The file explorer will show your project structure
+
+2. **Understanding Slash Commands**
+   > 💡 Throughout your journey, you can use these helpful commands:
+   - Type `/explain` to understand any code or concept
+   - Use `/debug` if you encounter any issues
+   - Try `/generate` to see more examples
+
+## 🛠️ Environment Setup
+
+### 1. Creating Your {{ terminology.environment }}
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate it:
+{% if platform == "windows" %}
+.\venv\Scripts\activate    # On Windows
+{% else %}
+source venv/bin/activate   # On macOS/Linux
+{% endif %}
+```
+> 💡 Highlight the commands above and use `/explain` to understand what they do!
+
+### 2. Installing Your {{ terminology.tools }}
+```bash
+# Install required packages
+pip install -r requirements.txt
+```
+> 🔧 If you see any errors, highlight them and use `/debug` for help!
+
+### 3. Verifying Your Setup
+```bash
+# Check Python version
+python --version
+
+# Verify pip installation
+pip --version
+```
+
+## ✅ Completion Checklist
+
+Before proceeding to the main lessons, confirm that:
+- [ ] Cursor IDE is running
+- [ ] Virtual environment is activated (you see `(venv)` in your terminal)
+- [ ] Required packages are installed
+- [ ] You can use slash commands in Cursor
+
+## 🚀 Next Steps
+
+Once you've completed this setup:
+1. Run the initialization script again:
+   ```bash
+   python init.py
+   ```
+2. The script will guide you through personalizing your learning journey
+3. You'll receive a custom lesson plan based on your interests
+4. Start with Lesson 0: Terminal Fundamentals
+
+## 🔄 Quick Reference
+
+- **Need to reactivate your environment?**
+  ```bash
+  {% if platform == "windows" %}
+  .\venv\Scripts\activate    # On Windows
+  {% else %}
+  source venv/bin/activate   # On macOS/Linux
+  {% endif %}
+  ```
+
+- **Installing new packages?**
+  ```bash
+  pip install package_name
+  ```
+
+## 🆘 Troubleshooting
+
+If you encounter any issues:
+1. Highlight the problematic command or error message
+2. Type `/debug` in Cursor's chat
+3. Follow the AI's suggestions to resolve the issue
+
+Remember: Your AI Learning Assistant is here to help! Don't hesitate to use the slash commands for guidance.
+
+---
+
+> 💡 **Pro Tip**: Keep this guide handy! You might need to reference it later when setting up new projects. 

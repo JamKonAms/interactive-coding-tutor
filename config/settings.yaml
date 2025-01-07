@@ -1,0 +1,100 @@
+# System Settings
+# Global configuration for the learning environment
+
+# Environment Settings
+environment:
+  workspace_path: ""
+  python_version: "3.8+"
+  virtual_env_name: "learning_env"
+  auto_activate_venv: true
+
+# Editor Settings
+editor:
+  default_indent: 4
+  tab_size: 4
+  auto_save: true
+  format_on_save: true
+  linting_enabled: true
+  autocomplete_enabled: true
+  
+# AI Assistant Settings
+ai_assistants:
+  learning_assistant:
+    enabled: true
+    personality: "encouraging"
+    verbosity: "balanced"
+    code_examples: "themed"
+  specialized_agents:
+    debug:
+      enabled: true
+      auto_suggest: true
+    refactor:
+      enabled: true
+      auto_suggest: true
+    explain:
+      enabled: true
+      auto_suggest: true
+    test:
+      enabled: true
+      auto_suggest: true
+    generate:
+      enabled: true
+      auto_suggest: true
+
+# Learning Environment
+learning_env:
+  default_theme: "space_exploration"
+  available_themes:
+    - "space_exploration"
+    - "fantasy_quest"
+    - "cyber_security"
+    - "earth_science"
+  difficulty_scaling: true
+  adaptive_learning: true
+  progress_tracking: true
+
+# Documentation
+docs:
+  auto_generate: true
+  include_examples: true
+  format: "markdown"
+  output_path: "docs/"
+
+# Testing Framework
+testing:
+  default_framework: "pytest"
+  auto_test_on_save: false
+  coverage_tracking: true
+  minimum_coverage: 80
+
+# Backup and Sync
+backup:
+  enabled: true
+  frequency: "daily"
+  retention_days: 30
+  cloud_sync: false
+  cloud_provider: ""
+
+# Security
+security:
+  encrypt_user_data: true
+  auto_update_checks: true
+  telemetry:
+    enabled: false
+    data_collection: "minimal"
+
+# System Integration
+integration:
+  git:
+    enabled: true
+    auto_commit: false
+    commit_frequency: "hourly"
+  cursor:
+    theme_sync: true
+    keybindings_sync: true
+
+# Version Control
+version:
+  settings_version: "1.0.0"
+  last_updated: ""
+  auto_update: true 
